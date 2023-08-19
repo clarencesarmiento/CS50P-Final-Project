@@ -7,7 +7,7 @@ This program prompts the user for date of birth as an input in `Month Day, Year`
 The Program utilizes the python built-in library `Datetime`[^1] and import `date` object. 
 To acquire the current local date, `.today()` class method from `date` was used which has `.day`, `.month`, and `.year` instance attributes.
 
-The Program also utilizes the python built-in library `re` or `regular expression`. This library was used to check the format of the inputted birthdate and extracts the neccesarry data.
+The Program also utilizes the python built-in library `re`[^2] or `regular expression`. This library was used to check the format of the inputted birthdate and extracts the neccesarry data.
 
 To calculate the age, subtract the birthyear from the current year.
 
@@ -28,4 +28,9 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 After successfully running the program, it will prompt for some birthdate.
 Enter the birthdate following the given format `Month Day, Year`. Example: October 20, 2000 or Oct 20, 2000. The program is case insensitive. 
 >[!NOTE]
->Do not forget the `,` comma between the `day` and `year` of the birthdate.
+>Do not forget the comma `,` between the `day` and `year` of the birthdate.
+
+
+## References
+[^1]: [Datetime library](https://docs.python.org/3/library/datetime.html)
+[^2]: [re library](https://docs.python.org/3/library/re.html)
