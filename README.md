@@ -28,8 +28,10 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 #### How to Use the Program?
 After successfully running the program, it will prompt for some birthdate.
 Enter the birthdate following the given format `Month Day, Year`. 
-- Example: October 20, 2000 or Oct 20, 2000. The program is case insensitive. 
->[!NOTE]
+- Example: October 20, 2000 or Oct 20, 2000.
+>[!Note]
+>The program is case insensitive. 
+>[!Important]
 >Do not forget the comma `,` between the `day` and `year` of the birthdate.
 
 
