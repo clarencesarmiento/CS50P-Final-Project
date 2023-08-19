@@ -4,7 +4,7 @@
 This program prompts the user for date of birth as an input in `Month Day, Year` format, and prints out the calculated age and days before their birthday. 
 
 #### How the Program Works?
-The Program utilizes the python built-in library `Datetime[^1]` and import `date` object. 
+The Program utilizes the python built-in library `Datetime`[^1] and import `date` object. 
 To acquire the current local date, `.today()` class method from `date` was used which has `.day`, `.month`, and `.year` instance attributes.
 
 The Program also utilizes the python built-in library `re` or `regular expression`. This library was used to check the format of the inputted birthdate and extracts the neccesarry data.
@@ -27,3 +27,5 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 #### How to Use the Program?
 After successfully running the program, it will prompt for some birthdate.
 Enter the birthdate following the given format `Month Day, Year`. Example: October 20, 2000 or Oct 20, 2000. The program is case insensitive. 
+>[!NOTE]
+>Do not forget the `,` comma between the `day` and `year` of the birthdate.
