@@ -12,3 +12,6 @@ The calculations of the age are based on the following factors:
 To calculate the days before birthdate, subtract today's date from the birthdate in current year (Example: 2023, 10, 20 - 2023, 08, 19).
 > If the birthday in current year is less than today's date (Example: Birthdate 2023, 02, 11; Today's date 2023, 08, 19) then, increment 1 to the birthyear. This will replace to 2024, 02, 11 - 2023, 08, 19.
 
+### TODO:
+#### How to Run the Program?
+To run the program, go to ~cmd~
