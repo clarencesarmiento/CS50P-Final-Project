@@ -3,6 +3,7 @@
 ### Description:
 This program prompts the user for date of birth as an input in (Month Day, Year) format, and prints out the calculated age and days before their birthday. 
 
+#### How the Program Works?
 To calculate the age, subtract the birthyear from the current year.
 
 The calculations of the age are based on the following factors:
@@ -17,3 +18,7 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 1. Download the program python script.
 2. Go to `cmd` and navigate to the program python script directory.
 3. Run the program python script with `python` keyword first, then `filename.py`.
+
+#### How to Use the Program?
+After successfully running the program, it will prompt for some birthdate.
+Enter the birthdate following the given format `Month Day, Year`. Example: October 20, 2000 or Oct 20, 2000. The program is case insensitive. 
