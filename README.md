@@ -1,9 +1,12 @@
 # Age Calculator
 ## Video Demo
 ### Description:
-This program prompts the user for date of birth as an input in (Month Day, Year) format, and prints out the calculated age and days before their birthday. 
+This program prompts the user for date of birth as an input in `Month Day, Year` format, and prints out the calculated age and days before their birthday. 
 
 #### How the Program Works?
+The Program utilizes the python built-in library `Datetime` and import `date` object. 
+To acquire the current local date, `.today()` class method from `date` was used which has `.day`, `.month`, and `.year` instance attributes.
+
 To calculate the age, subtract the birthyear from the current year.
 
 The calculations of the age are based on the following factors:
