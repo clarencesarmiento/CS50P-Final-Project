@@ -14,4 +14,4 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 
 ### TODO:
 #### How to Run the Program?
-To run the program, go to ~cmd~
+To run the program, go to 'cmd'
