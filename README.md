@@ -7,6 +7,8 @@ This program prompts the user for date of birth as an input in `Month Day, Year`
 The Program utilizes the python built-in library `Datetime` and import `date` object. 
 To acquire the current local date, `.today()` class method from `date` was used which has `.day`, `.month`, and `.year` instance attributes.
 
+The Program also utilizes the python built-in library `re` or `regular expression`. This library was used to check the format of the inputted birthdate and extracts the neccesarry data.
+
 To calculate the age, subtract the birthyear from the current year.
 
 The calculations of the age are based on the following factors:
