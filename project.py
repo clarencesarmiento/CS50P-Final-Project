@@ -11,8 +11,10 @@ FUNCTIONS
         Returns the checked format of birthday.
     month_to_integer()
         Returns the equivalent integer of the month.
-    calculate()
-        Returns the age, and the number of days before birthday.
+    calculate_age()
+        Returns the age.
+    calculate_days()
+        Returns the number of days before birthday.
 """
 
 from datetime import date
