@@ -104,8 +104,8 @@ def calculate(birthmonth: str, birthday: int, birthyear: int, today):
 
     Args:
         birthmonth (str): the string to be passed on month_to_integer function to be converted to integer.
-        birthday (str): the integer which is to be checked to increment 1 to age if birthday had passed on.
-        birthyear (str): the integer which is the subtrahend to calculate the age.
+        birthday (int): the integer which is to be checked to increment 1 to age if birthday had passed on.
+        birthyear (int): the integer which is the subtrahend to calculate the age.
         today (datetime.date): function that returns today's date.
 
     Returns:
