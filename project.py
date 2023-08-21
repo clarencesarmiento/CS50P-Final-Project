@@ -7,13 +7,13 @@ DESCRIPTION
     the calculated age and days before their birthday.
 
 FUNCTIONS
-    is_valid()
+    is_valid(birthdate: str)
         Returns the checked format of birthday.
-    month_to_integer()
+    month_to_integer(month: str)
         Returns the equivalent integer of the month.
-    calculate_age()
-        Returns the age.
-    calculate_days()
+    calculate_age(birthmonth: str, birthday: int, birthyear: int, today)
+        Returns the age, and the number of days before birthday.
+    calculate_days(birthday: int, birthmonth: str, today)
         Returns the number of days before birthday.
 """
 
