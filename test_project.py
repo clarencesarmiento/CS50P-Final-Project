@@ -1,4 +1,4 @@
-from project import is_valid, month_to_integer, calculate
+from project import is_valid, month_to_integer, calculate_age, calculate_days
 from datetime import date
 import pytest
 
@@ -31,6 +31,11 @@ def test_month_to_integer_valueerror():
         month_to_integer('febraury')
 
 
-def test_calculate_default():
-    assert calculate("october", 20, 2000, date.today()) == (22, 64)
-    assert calculate("nov", 0o2, 2001, date.today()) == (21, 77)
+def test_calculate_age():
+    assert calculate_age("october", 20, 2000, date.today()) == 22
+    assert calculate_age("nov", 0o2, 2001, date.today()) == 21
+
+
+def test_calculate_days():
+    assert calculate_days("october", 20, date.today()) == 60
+    assert calculate_days("nov", 0o2, date.today()) == 73
