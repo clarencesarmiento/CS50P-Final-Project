@@ -20,8 +20,13 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 
 ### TODO:
 #### How to Run the Program?
-1. Download the program python script.
-2. Go to `cmd` and navigate to the program python script directory.
+1. Download the program python script through;
+
+   Clone Repository or Download Zip
+   ```
+   git clone https://github.com/clarencesarmiento/CS50P-Final-Project.git
+   ```
+3. Go to `cmd` and navigate to the program python script directory.
    - `cd 'directory'` 
 4. Run the program python script with `python` keyword first, then `filename.py`.
 
