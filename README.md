@@ -19,16 +19,30 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 1. If the birthday in current year is less than today's date (Example: Birthdate 2023, 02, 11; Today's date 2023, 08, 19) then, increment 1 to the birthyear. This will replace to 2024, 02, 11 - 2023, 08, 19.
 
 ### TODO:
+#### Installation
+Use [pip](https://pip.pypa.io/en/stable/) to install needed libraries.
+```
+pip install -r requirements.txt
+```
 #### How to Run the Program?
 1. Download the program python script through;
 
    Clone Repository or Download Zip
    ```
-   git clone https://github.com/clarencesarmiento/CS50P-Final-Project.git
+   $ git clone https://github.com/clarencesarmiento/CS50P-Final-Project.git
    ```
-3. Go to `cmd` and navigate to the program python script directory.
-   - `cd 'directory'` 
-4. Run the program python script with `python` keyword first, then `filename.py`.
+2. Go to `cmd` and navigate to the program python script directory.
+   ```
+   $ cd CS50P-Final-Project
+   ``` 
+3. Run the program python script with [python](https://www.python.org/).
+   ```
+   $ python project.py
+   ```
+   Test the program python script with [pytest](https://docs.pytest.org/en/7.2.x/).
+   ```
+   $ pytest test_project.py
+   ```
 
 #### How to Use the Program?
 After successfully running the program, it will prompt for some birthdate.
