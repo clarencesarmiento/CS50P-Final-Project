@@ -19,32 +19,29 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 1. If the birthday in current year is less than today's date (Example: Birthdate 2023, 02, 11; Today's date 2023, 08, 19) then, increment 1 to the birthyear. This will replace to 2024, 02, 11 - 2023, 08, 19.
 
 ### TODO:
+#### Download
+Download the Repository through Clone Repository or Download Zip
+```
+git clone https://github.com/clarencesarmiento/CS50P-Final-Project.git
+```
 #### Installation
+After download, go to `cmd` and navigate to the project folder directory.
+```
+cd CS50P-Final-Project
+``` 
 Use [pip](https://pip.pypa.io/en/stable/) to install needed libraries.
 ```
 $ pip install -r requirements.txt
 ```
-#### How to Run the Program?
-1. Download the program python script through;
-
-   Clone Repository or Download Zip
-   ```
-   $ git clone https://github.com/clarencesarmiento/CS50P-Final-Project.git
-   ```
-2. Go to `cmd` and navigate to the program python script directory.
-   ```
-   $ cd CS50P-Final-Project
-   ``` 
-3. Run the program python script with [python](https://www.python.org/).
-   ```
-   $ python project.py
-   ```
-   Test the program python script with [pytest](https://docs.pytest.org/en/7.2.x/).
-   ```
-   $ pytest test_project.py
-   ```
-
-#### How to Use the Program?
+#### Usage
+Run the program python script `project.py` with [python](https://www.python.org/).
+```
+python project.py
+```
+Test the program python script `test_project.py` with [pytest](https://docs.pytest.org/en/7.2.x/).
+```
+pytest test_project.py
+```
 After successfully running the program, it will prompt for some birthdate.
 Enter the birthdate following the given format `Month Day, Year`. 
 ```
