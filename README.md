@@ -22,7 +22,7 @@ To calculate the days before birthdate, subtract today's date from the birthdate
 #### Installation
 Use [pip](https://pip.pypa.io/en/stable/) to install needed libraries.
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 #### How to Run the Program?
 1. Download the program python script through;
